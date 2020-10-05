@@ -22,8 +22,10 @@
 .search__div {
   display: flex;
   align-items: center;
-  outline: #002f34;
   height: 100%;
+  border-radius: 3px;
+
+  border: #002f34 2px solid;
 }
 .search__div:focus {
   border: #002f34 10px solid;
@@ -40,9 +42,9 @@
   outline: none;
 }
 .nav__input2 {
-  margin-left: 20px;
+  /* margin-left: 20px; */
   display: flex;
-  width: 75%;
+  width: 100%;
 }
 .search__icon {
   font-size: 29px;
@@ -84,7 +86,10 @@
   display: flex;
   /* flex: 1; */
   height: 100%;
-  width: 70%;
+  width: 74%;
+  margin-left: 20px;
+border-radius: 3px 9px 9px 3px;
+  border: #002f34 2px solid;
 }
 .add__icon {
   font-size: 20px;

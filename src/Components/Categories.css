@@ -3,7 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
-.catg{
+.cat{
     width: 100%;
-    height: 10px;
+    display: flex;
+}
+.cat1{
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: #002f34;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+    /* padding: 20px; */
+    margin:7px 34px;
+    display: flex;
+    
+}
+.arrow{
+    font-size: 30px;
+}
+.cat2{
+    display: flex;
+    cursor: pointer;
+}
+.cat2 p{
+    margin: auto 15px;
+    align-items: center; 
+    font-size: 2vh;
+    color: #002f34;
+}
+.cat2 p:hover{
+    color: rgb(0, 164, 214);
 }

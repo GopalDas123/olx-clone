@@ -7,3 +7,26 @@
   width: 100%;
   background-image: url('./slider.png');
 }
+.sugg-cont{
+  width: 92%;
+  border-radius: 5px;
+  background-color: #ebeeef;
+  font-family: 'Roboto';
+  padding: 20px;
+  margin: 60px auto;
+}
+.based{
+  margin:10px 14px;
+  font-size: 27px;
+  color: #002f34;
+}
+.sugg{
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.fresh{
+display: flex;
+}
