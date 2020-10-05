@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #f7f8f9;
+  height: 11vh;
+  padding: 12px;
+  align-items: center;
+}
+.logo {
+  width: 55px;
+  background-image: url(./olx.jpg);
+  object-fit: contain;
+  margin-left: 23px;
+  margin-right: 12px;
+}
+.search__div {
+  display: flex;
+  align-items: center;
+  outline: #002f34;
+  height: 100%;
+}
+.search__div:focus {
+  border: #002f34 10px solid;
+}
+.nav__input {
+  height: 100%;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  padding-left: 10px;
+}
+.nav__input:focus {
+  border: none;
+  outline: none;
+}
+.nav__input2 {
+  margin-left: 20px;
+  display: flex;
+  width: 75%;
+}
+.search__icon {
+  font-size: 29px;
+  color: #002f34;
+  background-color: white;
+  height: 100%;
+  /* width: 30px; */
+  padding: 5px;
+}
+.search__icon2 {
+  color: white;
+  background: #002f34;
+  padding-left: 2px;
+  height: 100%;
+  width: 50px;
+  padding: 14px;
+  border-radius: 0px 5px 5px 0px;
+}
+.login__btn {
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+  color: #002f34;
+  font-family: "Roboto", sans-serif;
+}
+.sell__btn {
+  font-family: "Roboto", sans-serif;
+  border-radius: 22px 22px 22px 22px;
+  width: 120px;
+  height: 38px;
+  font-size: 15px;
+  align-items: center;
+  display: flex;
+  font-weight: bolder;
+  justify-content: center;
+}
+.search__div2 {
+  display: flex;
+  /* flex: 1; */
+  height: 100%;
+  width: 70%;
+}
+.add__icon {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 2px;
+}
