@@ -12,6 +12,7 @@ export default function SignUp() {
   const [loginn, setLoginn] = React.useState("");
   const [loading, setLoading] = React.useState(false);
 
+
   async function handleSubmit(e) {
     e.preventDefault();
     if (passwordRef.current.value !== passwordConfirmedRef.current.value) {
@@ -35,7 +36,10 @@ export default function SignUp() {
 
   return (
     <>
-      <div className="w-100" style={{ maxWidth: "400px",display:'flex',flexDirection:'column' }}>
+      <div
+        className="w-100"
+        style={{ maxWidth: "400px", display: "flex", flexDirection: "column" }}
+      >
         <Card>
           <Card.Body style={{ marginTop: "-10px" }}>
             <h2 className="text-center mb-4">Sign Up</h2>
@@ -78,31 +82,17 @@ export default function SignUp() {
         </Card>
         <Card style={{ marginTop: "10px" }}>
           <Modal.Body style={{ display: "flex", flexDirection: "column" }}>
-            <Link to="./register">
-              <Button
-                style={{
-                  marginBottom: "3px",
-                  marginTop: "-5px",
-                  width: "100%",
-                }}
-                variant="success"
-              >
-                SIGNUP WITH EMAIL
-              </Button>
-            </Link>
-            {/* <Link to="./register" style={{}}> */}
             <Button
-              style={{ marginBottom: "3px", width: "100%" }}
-              variant="primary"
-            >
-              SIGNUP WITH FACEBOOK
-            </Button>
-            {/* </Link> */}
-            <Button
-              style={{ marginBottom: "-5px", width: "100%" }}
+              style={{ marginBottom: "5px", width: "100%" }}
               variant="danger"
             >
               SIGNUP WITH GOOGLE
+            </Button>
+            <Button
+              style={{ marginBottom: "1px", width: "100%" }}
+              variant="primary"
+            >
+              SIGNUP WITH FACEBOOK
             </Button>
           </Modal.Body>
         </Card>
