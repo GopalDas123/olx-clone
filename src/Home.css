@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.slider {
+  width: 100%;
+  background-image: url("./slider.png");
+}
+.sugg-cont {
+  width: 92%;
+  border-radius: 5px;
+  background-color: #ebeeef;
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+  margin: 60px auto;
+}
+.based {
+  margin: 10px 14px;
+  font-size: 27px;
+  color: #002f34;
+}
+.sugg {
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.fresh {
+  display: flex;
+}
+.mCont {
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+  margin: 20px auto 118px auto;
+}
+.more {
+  width: 100px;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: bold;
+  color: #002f34;
+  font-family: "Roboto", sans-serif;
+  height: 48px;
+  border: 2px solid #002f34;
+}
+.more:hover {
+  border: 5px solid #002f34;
+  cursor: pointer;
+}
+.olx-app {
+  background-image: url("./olxApp.png");
+  width: 100%;
+  margin-bottom: -5px;
+  border-bottom: 1px solid lightgray;
+  font-family: "Roboto", sans-serif;
+}
+.olx-app:hover{
+  cursor: pointer;
+
+}
+.footer {
+  font-family: "Roboto", sans-serif;
+  line-height: 120%;
+  display: flex;
+  height: 150px;
+  align-items: center;
+  background-color: #ebeeef;
+  letter-spacing: 0.5px;
+  padding-left: 60px;
+}
+.footer h2 {
+  color: #002f34;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.footer div {
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0px 20px;
+}
+
+.footer p {
+  font-size: 12px;
+  color: #5c7a7d;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 0.5px;
+  align-items: center;
+  width: 100%;
+  background-color: #002f34;
+  padding: 17px;
+  color: white;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+padding:20px 60px;
+
+}

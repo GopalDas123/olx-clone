@@ -38,7 +38,7 @@
 .product__price{
     color: #002f34;
     font-weight: bold;
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-size: 21px;
     letter-spacing: 2px;
     

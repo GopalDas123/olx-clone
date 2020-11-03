@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import "./Product.css";
-import NumberFormat from "react-number-format";
+// import NumberFormat from "react-number-format";
 import FreshProduct from './FreshProduct';
 
 const useStyles = makeStyles((theme) => ({

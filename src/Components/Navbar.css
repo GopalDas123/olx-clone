@@ -16,13 +16,14 @@
   width: 55px;
   background-image: url(./olx.jpg);
   object-fit: contain;
-  margin-left: 23px;
+  /* margin-left: 5px; */
   margin-right: 12px;
 }
 .search__div {
   display: flex;
   align-items: center;
   height: 100%;
+  /* width: 100%; */
   border-radius: 3px;
 
   border: #002f34 2px solid;
@@ -51,7 +52,7 @@
   color: #002f34;
   background-color: white;
   height: 100%;
-  /* width: 30px; */
+  width: 30px;
   padding: 5px;
 }
 .search__icon2 {
@@ -70,6 +71,7 @@
   background-color: transparent;
   color: #002f34;
   font-family: "Roboto", sans-serif;
+  outline: none;
 }
 .sell__btn {
   font-family: "Roboto", sans-serif;
@@ -82,11 +84,15 @@
   font-weight: bolder;
   justify-content: center;
 }
+
+.sell__btn:hover{
+  cursor: pointer;
+}
 .search__div2 {
   display: flex;
   /* flex: 1; */
   height: 100%;
-  width: 74%;
+  width: 40%;
   margin-left: 20px;
 border-radius: 3px 9px 9px 3px;
   border: #002f34 2px solid;
