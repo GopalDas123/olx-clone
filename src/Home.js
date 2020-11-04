@@ -7,22 +7,54 @@ import olxApp from "./olxApp.png";
 import Product from "./Components/Product";
 import FreshProducts from "./Components/FreshProducts";
 
-function Home() {
-  return (
 
+
+function Home() {
+
+  return (
     <div className="App">
       <Navbar />
       <Categories />
       <img src={slider} alt="header" className="slider"></img>
-      <div className="sugg-cont">
+
+        <div className="sugg-cont">
         <p className="based">Based on your last search</p>
-        <div className="sugg">
-          <Product />
-          <Product />
-          <Product />
+        <div className="sugg" >
+          <Product  />
+          <Product  />
+          <Product  />
           <Product />
         </div>
       </div>
+      {/* <div className="sugg-cont">
+
+      <Grid container spacing={3}>
+        <Grid item xs={6} sm={3}>
+          <Paper className='paper'>
+            <Product style={{width:'100%'}}/>
+          </Paper>
+        </Grid>
+        <Grid item xs={6} sm={3}>
+          <Paper className={classes.paper}>
+            <Product />
+          </Paper>
+        </Grid>
+        <Grid item xs={6} sm={3}>
+          <Paper className={classes.paper}>
+            <Product />
+          </Paper>
+        </Grid>
+        <Grid item xs={6} sm={3}>
+          <Paper className={classes.paper}>
+            <Product />
+          </Paper>
+        </Grid>
+      </Grid>
+      </div> */}
+
+
+
+
       <FreshProducts />
       <div className="mCont">
         <button className="more">Load more</button>

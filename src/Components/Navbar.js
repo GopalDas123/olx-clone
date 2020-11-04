@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import olx from "./olx.jpg";
 import { GoSearch, GoPlus } from "react-icons/go";
+import { RiChat1Line } from "react-icons/ri";
+import { VscBell } from "react-icons/vsc";
 import { IoIosArrowDown } from "react-icons/io";
 import { Link, useHistory } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
@@ -88,8 +90,11 @@ const Navbar = () => {
             display: "flex",
             justifyContent: "space-around",
             width: "20%",
+            alignItems:'center'
           }}
         >
+          <RiChat1Line className="bell" style={{fontSize:'25px',marginLeft:'-40px',marginRight:'-10px'}}/>
+          <VscBell className="bell" style={{fontSize:'23px',outline:'30px'}}/>
           <button onClick={handleLogout} className="login__btn">
             Logout
           </button>
